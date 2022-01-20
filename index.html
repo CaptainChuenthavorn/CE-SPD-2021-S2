@@ -20,12 +20,24 @@
 <script>
 function myFunction() {
   var x = document.getElementById("myDIV");
+  var y = document.getElementById('imageBox').src = "https://avatars.githubusercontent.com/u/38762000?s=400&u=c7800144109ea6767b2654bfbdadcd0c86f7f080&v=4";
   if (x.innerHTML === "Hello") {
     x.innerHTML = "This is Chakkapat";
+    document.getElementById("imageId").src="https://avatars.githubusercontent.com/u/38762000?s=400&u=c7800144109ea6767b2654bfbdadcd0c86f7f080&v=4";
   } else {
     x.innerHTML = "Hello";
+    document.getElementById("imageId").src="images/chandler.jpg";
   }
 }
 </script>
+<!---<script>
+function changeImage(pic){
+  if(pic=="cooking")
+     document.getElementById("imageId").src="imageAsrc";
+  else if(pic=="cleaning")
+     document.getElementById("imageId").src="imageBsrc";
+
+}--->
+  </script>
 </body>
 </html>
