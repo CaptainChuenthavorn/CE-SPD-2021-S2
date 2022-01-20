@@ -1,0 +1,6 @@
+.me{
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background: transparent url("images/chandler.jpg"); no-repeat 0 0;
+}
